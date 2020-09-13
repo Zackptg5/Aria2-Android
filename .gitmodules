@@ -1,0 +1,18 @@
+[submodule "zlib"]
+	path = zlib
+	url = https://github.com/madler/zlib
+[submodule "libssh2"]
+	path = libssh2
+	url = https://github.com/libssh2/libssh2
+[submodule "libexpat"]
+	path = libexpat
+	url = https://github.com/libexpat/libexpat
+[submodule "c-ares"]
+	path = c-ares
+	url = https://github.com/c-ares/c-ares
+[submodule "openssl"]
+	path = openssl
+	url = https://github.com/openssl/openssl
+[submodule "aria2"]
+	path = aria2
+	url = https://github.com/aria2/aria2

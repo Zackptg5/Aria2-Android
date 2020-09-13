@@ -1,0 +1,3 @@
+build*
+android-ndk-*
+.DS_Store
