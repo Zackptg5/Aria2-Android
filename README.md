@@ -8,7 +8,7 @@ Note that it looks for /system/etc/security/ca-certificates.crt so you'll need t
 
 ## Issues
 
-Static linked doens't resolve url names - you'll have to use direct ip address of the server or use dynamic linked (dynamic linked requires libssh2.so in lib or lib64 depending on architecture)
+Static linked doens't resolve url names - you'll have to use direct ip address of the server or use dynamic linked (dynamic linked requires libssh2.so and libz.so.1 in lib or lib64 depending on architecture)
 
 ## Prerequisites
 
