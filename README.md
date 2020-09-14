@@ -2,9 +2,13 @@
 
 Compiles aria2 (and dependencies ) for Android
 
-Dynamic linking (default) has most libssh2 for sftp protocol support, static doesn't due to it not cross compiling with static link
+Dynamic linking (default) has libssh2 for sftp protocol support, static doesn't due to it not cross compiling with static link
 
 Note that it looks for /system/etc/security/ca-certificates.crt so you'll need to grab you're own for https support
+
+## Issues
+
+Static linked doens't resolve url names - you'll have to use direct ip address of the server or use dynamic linked (dynamic linked requires libssh2.so in lib or lib64 depending on architecture)
 
 ## Prerequisites
 
