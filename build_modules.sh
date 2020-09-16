@@ -1,5 +1,5 @@
 #!/bin/bash
-$STATIC && MODULES="zlib openssl libexpat c-ares aria2" || MODULES="zlib openssl libssh2 libexpat c-ares aria2"
+MODULES="zlib openssl libssh2 libexpat c-ares aria2"
 
 patch_file() {
   echo "Applying patch"
@@ -102,7 +102,7 @@ for BIN in $MODULES; do
                       --with-libexpat \
                       --with-libcares \
                       --with-libz \
-                      --without-libssh2 \
+                      --with-libssh2 \
                       --with-ca-bundle='/system/etc/security/ca-certificates.crt' \
                       ARIA2_STATIC=yes \
                       CXXFLAGS="$CFLAGS -g" \

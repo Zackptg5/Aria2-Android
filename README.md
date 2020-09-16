@@ -2,13 +2,12 @@
 
 Compiles aria2 (and dependencies ) for Android
 
-Dynamic linking (default) has libssh2 for sftp protocol support, static doesn't due to it not cross compiling with static link
-
 Note that it looks for /system/etc/security/ca-certificates.crt so you'll need to grab you're own for https support
 
 ## Issues
 
-Static linked doens't resolve url names - you'll have to use direct ip address of the server or use dynamic linked (dynamic linked requires libssh2.so and libz.so.1 in lib or lib64 depending on architecture)
+Static linked doens't resolve url names - use "--async-dns" flag
+Like with curl, static link binary must be run as root or dns won't resolve on android Q+
 
 ## Prerequisites
 
