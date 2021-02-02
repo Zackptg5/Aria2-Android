@@ -1,3 +1,5 @@
+# Deprecated - [See new build script here](https://github.com/Zackptg5/Curl-and-Aria2-For-Android)
+
 # aria2-android
 
 Compiles aria2 (and dependencies ) for Android
