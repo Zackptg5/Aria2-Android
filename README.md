@@ -1,4 +1,4 @@
-# Deprecated - [See new build script here](https://github.com/Zackptg5/Curl-and-Aria2-For-Android)
+# Deprecated - [See new build script here](https://github.com/Zackptg5/GNU-Utils-For-Android-Build-Script)
 
 # aria2-android
 
